@@ -24,7 +24,7 @@ class bird_four_activity : AppCompatActivity() {
             finish()
         }
       binding.imageView12.setOnClickListener{
-          val intent=Intent(this,sixth_bird::class.java)
+          val intent=Intent(this,activity_bird_five::class.java)
           startActivity(intent)
         }
 
